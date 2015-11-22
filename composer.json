@@ -1,0 +1,30 @@
+{
+	"name": "appotter/flash-message",
+	"type": "library",
+	"description": "Library for storing and retrieving flash messages with your native php application.",
+	"keywords": ["flash", "data", "messages"],
+	"homepage": "https://github.com/appotter/flash-message",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Joel Vardy",
+			"email": "info@joelvardy.com",
+			"homepage": "https://joelvardy.com",
+			"role": "Developer"
+		},
+		{
+			"name": "Phitsanu AP Chuamuangphan",
+			"email": "ap.phitsanu@gmail.com",
+			"homepage": "http://phitsanu.xyz",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"Appotter": "src"
+		}
+	}
+}
