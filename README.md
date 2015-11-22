@@ -21,10 +21,10 @@ Add the following to your `composer.json` require object:
 Set data upon failure.
 
 ```php
-Flash::data([
+Flash::data(array(
 	'username' => $username,
 	'email'    => $email
-]);
+));
 ```
 
 Read data to display on the front end:
