@@ -4,8 +4,8 @@ namespace Appotter;
 /**
  * Flashdata library
  *
- * @link	https://github.com/appotter/flash-message
- * @author	Joel Vardy <info@joelvardy.com>
+ * @link	 https://github.com/appotter/flash-message
+ * @author	 Joel Vardy <info@joelvardy.com>
  * @reformer Phitsanu AP Chuamuangphan <ap.phitsanu@gmail.com>
  */
 class Flash
