@@ -31,7 +31,7 @@ class Flash
 		// Read data
 		$data = false;
 
-		if (isset($_SESSION[self::$session_name]['data']) {
+		if (isset($_SESSION[self::$session_name]['data'])) {
 			$data = $_SESSION[self::$session_name]['data'];
 		}
 
@@ -58,7 +58,7 @@ class Flash
 		// Read messages
 		$messages = array();
 
-		if (isset($_SESSION[self::$session_name]['messages']) {
+		if (isset($_SESSION[self::$session_name]['messages'])) {
 			$messages = $_SESSION[self::$session_name]['messages'];
 		}
 
